@@ -1,1 +1,1 @@
-export const word = (val) => /[A-Z,a-z,А-Я,а-я]/.test(val);
+export const word = (val) => /^\p{L}{2,14}$/u.test(val);

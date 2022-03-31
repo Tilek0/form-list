@@ -11,11 +11,6 @@ export default new Vuex.Store({
       passport: "",
     },
   },
-  getters: {
-    GET_CLIENT(state) {
-      return state.clients;
-    },
-  },
   mutations: {
     PUT_CLIENT(state, client) {
       state.clients.mainInfo = client;

@@ -408,7 +408,7 @@ $p-color: #61677c;
     border-radius: 30px;
     box-shadow: -5px -5px 20px $color-white, 5px 5px 20px $color-shadow;
     &-underSpace {
-      height: 1.5rem;
+      height: 2.1rem;
       width: 100%;
     }
     .errorInput {
@@ -416,7 +416,7 @@ $p-color: #61677c;
     }
     .errorHelper {
       color: red;
-      margin: 5px 0;
+      margin: 5px 5px;
     }
     input {
       border: 0;
@@ -467,6 +467,7 @@ $p-color: #61677c;
       width: 100%;
       display: flex;
       justify-content: flex-end;
+      margin-top: 3%;
       button {
         width: 25%;
         border: 0;
@@ -595,6 +596,10 @@ $p-color: #61677c;
       }
       p {
         font-size: 14px;
+      }
+      .errorHelper {
+        font-size: 11px;
+        margin: 0 3px;
       }
       &-gender {
         div {
