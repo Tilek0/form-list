@@ -196,7 +196,7 @@ export default {
     date: {
       day: {
         required,
-        between: between(0, 12),
+        between: between(0, 31),
       },
       month: {
         required,
